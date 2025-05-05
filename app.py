@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 CLIENT_ID = "8nggyqkwcq3jmoqfgkcu"
 CLIENT_SECRET = "caf10f42521e49bcac64f9ab2a15fa5c"
-DEVICE_ID = "b...your_device_id_here..."
+DEVICE_ID = "bfaa2a97bacdd69156wyj9"
 
 @app.route('/')
 def home():
