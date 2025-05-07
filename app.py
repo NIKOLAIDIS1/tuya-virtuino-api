@@ -1,3 +1,9 @@
+import os, sys
+# φορτώνουμε πρώτα τον φάκελο vendor με τα Azure SDK
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "vendor"))
+
+
+
 from flask import Flask, jsonify
 from datetime import datetime
 import os
